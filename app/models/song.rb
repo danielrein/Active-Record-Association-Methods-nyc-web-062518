@@ -6,8 +6,7 @@ class Song < ActiveRecord::Base
     genre.name
   end
 
-  de
-  f drake_made_this
+  def drake_made_this
     artist = Artist.find_by(name: "Drake")
     # when this method is called it should assign the song's artist to Drake
   end
